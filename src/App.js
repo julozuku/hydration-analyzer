@@ -11,11 +11,11 @@ function App() {
     const brightness = (r + g + b) / 3;
 
     if (brightness > 180) {
-      setResult("Dobrze nawodniony 💧");
+      setResult("Dobrze nawodniony 52,5%-62,5% 💧");
     } else if (brightness > 120) {
-      setResult("Umiarkowane nawodnienie ⚠️");
+      setResult("Umiarkowane nawodnienie 47,5%-51,5% ⚠️");
     } else {
-      setResult("Silne odwodnienie ❗ skontaktuj się z lekarzem lu z farmaceutom bo to zagraża twojemu życiu lub zdrowiu");
+      setResult("Silne odwodnienie <47,4% ❗ skontaktuj się z lekarzem lu z farmaceutom bo to zagraża twojemu życiu lub zdrowiu");
     }
   };
 
